@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0px auto;
+    max-width: 960px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    background-color: black;
+}
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #fff;
+    padding: 20px 0px;
+    font-weight: bold;
+    transition: all 0.5 ease-in-out;
+}
+header.sticky{
+    background: #fff;
+    opacity: 0.9;
+    color: #000;
+    padding: 15px 0px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+header.sticky #logo{
+    color: #000;
+}
+header.sticky a{
+    color: #000;
+}
+#logo {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    display: block;
+}
+.inner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+ul a{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display: block;
+    font-weight: bold;
+}
+#banner{
+    background-image: url(/images/download.gif);
+    min-height: 580px;
+    width: 100%;;
+}
+#banner img{
+    width: 100%;
+}
+.content h1{
+    margin-bottom: 10px;
+}
+.team1  a img{
+    width: 15%;
+    height: 15%;
+    padding-top: 20px;
+    float: left;
+    padding-right: 5px;
+    display: flex;
+}
+.team1:hover{
+    color: bisque;
+}
+.team1 h3{
+    padding-top: 50px;
+    padding-left: 130px;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #fff;
+}
+.team1 a h3:hover{
+    color: rgb(248, 244, 4);
+}
+.team1 span{
+    color: #fff;
+    justify-content: space-between;
+    font-weight: bold;
+    text-align: center;
+}
+.team1 a span:hover{
+    color: rgb(248, 244, 4);
+}
+.team2{
+    padding: 70px;
+    padding-left: 10px;
+}
+.team2  a img{
+    width: 15%;
+    height: 15%;
+    padding-top: 10px;
+    float: left;
+    padding-right: 5px;
+    display: flex;
+}
+.team2:hover{
+    color: bisque;
+}
+.team2 h3{
+    padding-top: 50px;
+    padding-left: 130px;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #fff;
+}
+.team2 a h3:hover{
+    color:  rgb(197, 197, 197);
+}
+.team2 span{
+    color: #fff;
+    justify-content: space-between;
+    font-weight: bold;
+    text-align: center;
+}
+.team2 a span:hover{
+    color: rgb(197, 197, 197);
+}
+.team3{
+    padding: 5px;
+    padding-left: 10px;
+}
+.team3 a img{
+    width: 15%;
+    height: 15%;
+    padding-top: 20px;
+    float: left;
+    padding-right: 5px;
+    display: flex;
+}
+.team3:hover{
+    color: bisque;
+}
+.team3 h3{
+    padding-top: 50px;
+    padding-left: 130px;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #fff;
+}
+.team3 a h3:hover{
+    color: rgb(4, 248, 57);
+}
+.team3 span{
+    color: #fff;
+    justify-content: space-between;
+    font-weight: bold;
+    text-align: center;
+}
+.team3 a span:hover{
+    color: rgb(4, 248, 57);
+}
+.team4{
+    padding: 50px;
+    padding-left: 10px;
+}
+.team4 a img{
+    width: 15%;
+    height: 15%;
+    padding-top: 20px;
+    float: left;
+    padding-right: 5px;
+    display: flex;
+}
+.team4:hover{
+    color: bisque;
+}
+.team4 h3{
+    padding-top: 50px;
+    padding-left: 130px;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #fff;
+}
+.team4 a h3:hover{
+    color: rgb(248, 4, 4);
+}
+.team4 span{
+    color: #fff;
+    justify-content: space-between;
+    font-weight: bold;
+    text-align: center;
+}
+.team4 a span:hover{
+    color: rgb(248, 4, 4);
+}
+footer{
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    margin-top: 50px;
+}
+footer h3{
+    font-weight: bold;
+    font-size: larger;
+    padding-top: -120px;
+}
